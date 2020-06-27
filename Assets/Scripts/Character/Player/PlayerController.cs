@@ -56,7 +56,7 @@ public class PlayerController : CharacterBase
             return true;
         }
 
-        faceTo(dir);
+        FaceTo(dir);
         return false;
     }
 

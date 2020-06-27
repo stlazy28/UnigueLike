@@ -1,11 +1,5 @@
 ﻿using Assets.Scripts.DesignPattern;
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
-using UnityEngine.Scripting.APIUpdating;
 using static GlobalInstance;
 
 public abstract class CharacterBase : MonoBehaviour

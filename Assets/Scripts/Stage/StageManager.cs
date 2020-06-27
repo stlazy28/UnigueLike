@@ -30,6 +30,13 @@ public class StageManager : MonoBehaviour
 
     public string GetChipTag(Vector2Int pos)
     {
+        if(pos.x < 0 || pos.x >= _stageData.Length
+            || pos.x < 0 || pos.y >= _stageData.Length)
+        {
+            Debug.LogError("Index out of range for stageData", gameObject);
+            return null;
+        }
+
         ChipEntity chip = _stageData[pos.y, pos.x];
 
         return chip.ChipTag;

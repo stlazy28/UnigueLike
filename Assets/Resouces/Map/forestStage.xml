@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-up" width="10" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" source="forest.tsx"/>
+ <layer id="1" name="Wall" width="10" height="10">
+  <data encoding="csv">
+42,42,42,42,42,42,42,42,42,42,
+42,0,0,0,0,0,0,0,0,42,
+42,0,0,0,0,0,0,0,0,42,
+42,0,0,0,0,0,0,0,0,42,
+42,0,0,0,0,0,0,0,0,42,
+42,0,0,0,0,0,0,0,0,42,
+42,0,0,0,0,0,0,0,0,42,
+42,0,0,0,0,0,0,0,0,42,
+42,0,0,0,0,0,0,0,0,42,
+42,42,42,42,42,42,42,42,42,42
+</data>
+ </layer>
+ <layer id="2" name="Floor" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,2,2,2,2,2,2,2,2,0,
+0,2,2,2,2,2,2,2,2,0,
+0,2,2,2,2,2,2,2,2,0,
+0,2,2,2,2,2,2,2,2,0,
+0,2,2,2,2,2,2,2,2,0,
+0,2,2,2,2,2,2,2,2,0,
+0,2,2,2,2,2,2,2,2,0,
+0,2,2,2,2,2,2,2,2,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
